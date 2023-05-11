@@ -1,0 +1,41 @@
+body h1{
+    color: green;
+    border: 10px dotted blue;
+}
+h1{
+    color: blueviolet;
+    border: 5px double green;
+}
+section > p{
+    color: blue;
+}
+body article p {
+    color: green;
+}
+section + article {
+    background-color: yellow;
+}
+section ~ *{
+    background-color: tomato;
+}
+.one{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+p{
+    font-size: 2rem;
+}
+
+html{
+    font-size: 20px;
+}
+body{
+    color: #611787;
+}
+p{color: chartreuse;
+    font-size: ;
+}
+p:last-of-type{}
+p+p{
+    background-color: rgb(17, 75, 85);
+}

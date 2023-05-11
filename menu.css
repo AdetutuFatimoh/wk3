@@ -1,0 +1,26 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+tr:nth-of-type(even) {
+    background-color: red;
+    padding: 0.5em;
+}
+
+tr:nth-of-type(odd) {
+    background-color: yellow;
+    padding: 0.5em;
+}
+
+tr{
+    font-size: 20px;
+}
+
+tbody td {
+    background-color: blue;
+    padding: 0.5em;
+}
+tbody th{
+    background-color: pink;
+    padding: 0.5em;
+}
